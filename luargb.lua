@@ -27,7 +27,6 @@ end
 local InGame = clientstate.GetClientSignonState()
     local me = entities.GetLocalPlayer()  
 
-
   if InGame == 6 then
         ping = entities.GetPlayerResources():GetPropDataTableInt("m_iPing")[me:GetIndex()] 
     else
